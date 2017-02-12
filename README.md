@@ -53,8 +53,7 @@ potentials.
 To compile the code, first create a build directory in the 'gibs' directory, e.g.,
 
 ```
-mkdir build
-
+> mkdir build
 ```
 In the build directory, generate a Makefile using `CMake`. Examples of `CMakeLists.txt` files
 are provided. These can be modified to suit the user's choice of C++ compiler and platform. The 
@@ -63,20 +62,19 @@ following examples show how to compile the code on a Mac and on a Windows OS.
 1. Using GNU C++ compiler on Mac
 
 ```
-cp CMakeLists_mac.txt CMakeLists.txt
-cd build
-cmake -DCMAKE_BUILD_TYPE=RELEASE ../
-make
+> cp CMakeLists_mac.txt CMakeLists.txt
+> cd build
+> cmake -DCMAKE_BUILD_TYPE=RELEASE ../
+> make
+```
+2. Using a 32-bit MINGW compiler for Windows. Run CMake and make on the Windows command prompt window.
+
 
 ```
-2. Using a 32-bit MINGW compiler for Windows
-
-```
-cp CMakeLists_WindowsMINGW.txt CMakeLists.txt
-cd build
-cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=RELEASE ../
-mingw32-make
-
+> cp CMakeLists_WindowsMINGW.txt CMakeLists.txt
+> cd build
+> cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=RELEASE ../
+> mingw32-make
 ```
 
 Running cmake will generate the Makefile. Running make will create the
