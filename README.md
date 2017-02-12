@@ -15,3 +15,17 @@ freely for the community to use as an educational and research tool.
 The GIBS program was written by Dr. Dennis G. Thomas in collaboration with Dr. Nathan A. Baker, at Pacific 
 Northwest National Laboratory. The program was developed as part of projects funded by the National Institutes 
 of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
+
+
+## Download instructions and compilation
+
+
+## Citing GIBS
+
+Please acknowledge the use of GIBS by citing the following paper:
+
+'''
+Dennis G. Thomas and Nathan A. Baker, GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for simulating 
+ion-biomolecule interactions. XYZ 2017...
+
+'''
