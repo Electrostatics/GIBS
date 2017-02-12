@@ -26,14 +26,15 @@ of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
 ## Features
 
-1. Automate the excess chemical potential calculations for bulk electrolyte solutions.
+1. Automated excess chemical potential calculations for bulk electrolyte solutions.
 2. Fast and efficient GCMC sampling of ion distributions in bulk electrolyte solutions and around fixed molecular solutes 
-3. Ion-Ion interactions can be specified `Coulomb`, `hard-sphere`, `Lennard-Jones` potentials.
-4. Ion-Solvent interactions can be specified using `hard-sphere`, `Lennard-Jones`, 'attractive square well` potentials.
-5. Solvent-Solvent interactions can be specified using `hard-sphere` repulsions.
-6. Solvent representation: dielectric continuum (primitive model) or hard spheres (solvent primitive model 
+3. Ion-Ion interactions using `Coulomb`, `hard-sphere`, `Lennard-Jones` potentials.
+4. Ion-Solvent interactions using `hard-sphere`, `Lennard-Jones`, `attractive square well` 
+potentials.
+5. Solvent-Solvent interactions using `hard-sphere` repulsions.
+6. Solvent modeled as dielectric continuum (primitive model) or hard spheres (solvent primitive model 
 (SPM)) 
-7. Ion representation: hard spheres
+7. Ions modeled as charged hard spheres
 
 
 ## Download Instructions and Code Compilation
@@ -48,6 +49,38 @@ of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
 
 ### Code compilation and use
+
+To compile the code, first create a build directory in the 'gibs' directory, e.g.,
+
+```
+mkdir build
+
+```
+In the build directory, generate a Makefile using `CMake`. Examples of `CMakeLists.txt` files
+are provided. These can be modified to suit the user's choice of C++ compiler and platform. The 
+following examples show how to compile the code on a Mac and on a Windows OS.
+
+1. Using GNU C++ compiler on Mac
+
+```
+cp CMakeLists_mac.txt CMakeLists.txt
+cd build
+cmake -DCMAKE_BUILD_TYPE=RELEASE ../
+make
+
+```
+2. Using a 32-bit MINGW compiler for Windows
+
+```
+cp CMakeLists_WindowsMINGW.txt CMakeLists.txt
+cd build
+cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=RELEASE ../
+mingw32-make
+
+```
+
+Running cmake will generate the Makefile. Running make will create the
+executable file, gibs.exe.
 
 
 ## Citing GIBS
