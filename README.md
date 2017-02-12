@@ -1,5 +1,4 @@
-# GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for simulating ion-biomolecule interactions with 
-molecular solvent models
+# GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for simulating ion-biomolecule interactions with molecular solvent models
 
 The ionic environment of biomolecules strongly influences their structure, conformational stability, and 
 inter-molecular interactions. GIBS is a Grand canonical Monte Carlo (GCMC) simulation program for computing the 
