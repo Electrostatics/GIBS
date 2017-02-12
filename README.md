@@ -17,15 +17,16 @@ Northwest National Laboratory. The program was developed as part of projects fun
 of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
 
-## Download instructions and compilation
+## Download Instructions and Code Compilation
 
 
 ## Citing GIBS
 
-Please acknowledge the use of GIBS by citing the following paper:
+Please cite the following paper for using GIBS:
 
-'''
+```
 Dennis G. Thomas and Nathan A. Baker, GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for simulating 
 ion-biomolecule interactions. XYZ 2017...
 
-'''
+```
+
