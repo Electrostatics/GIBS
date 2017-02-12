@@ -19,6 +19,17 @@ of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
 ## Download Instructions and Code Compilation
 
+Download the following files and folders:
+
+1. `src` folder: This folder contains the source code files
+
+2. `inputfiles` folder : This folder contains templates of input files for the simulations
+
+3. `tutorials` folder : This folder contains example applications of GIBS
+
+
+### Code compilation and use
+
 
 ## Citing GIBS
 
