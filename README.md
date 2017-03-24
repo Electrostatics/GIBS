@@ -1,7 +1,6 @@
 # GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for simulating ion-biomolecule interactions with molecular solvent models
 
-The ionic environment of biomolecules strongly influences their structure, conformational stability, and 
-inter-molecular interactions. GIBS is a Grand canonical Monte Carlo (GCMC) simulation program for computing the 
+GIBS is a Grand canonical Monte Carlo (GCMC) simulation program for computing the 
 thermodynamic properties of ionic solutions and their distributions around biomolecules. GIBS implements 
 algorithms that automate the excess chemical potential calculations for a given target salt concentration. GIBS 
 uses a cavity-bias algorithm to achieve high sampling acceptance rates for inserting ions and solvent hard 
@@ -20,11 +19,12 @@ of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
 1. Automated excess chemical potential calculations for bulk electrolyte solutions.
 2. Fast and efficient GCMC sampling of ion distributions in bulk electrolyte solutions and around fixed molecular solutes 
-3. Ion-Ion interactions using `Coulomb`, `hard-sphere`, `Lennard-Jones` potentials.
-4. Ion-Solvent interactions using `hard-sphere`, `Lennard-Jones`, `attractive square well` potentials.
-5. Solvent-Solvent interactions using `hard-sphere` repulsions.
-6. Solvent modeled as dielectric continuum (primitive model) or hard spheres (solvent primitive model or SPM) .
-7. Ions modeled as charged hard spheres.
+3. Models for Ion-Ion interactions using `Coulomb`, `hard-sphere`, `Lennard-Jones` potentials.
+4. Models for Ion-Solvent interactions using `hard-sphere`, `Lennard-Jones`, `attractive square well` potentials.
+5. Models for Solvent-Solvent interactions using `hard-sphere` repulsions.
+6. Solvent representation as dielectric continuum (primitive model) or hard spheres (solvent primitive model or 
+SPM).
+7. Ion representation as charged hard spheres.
 
 
 ## Download Instructions and Code Compilation
