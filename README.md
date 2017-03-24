@@ -33,12 +33,12 @@ of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
 1. `src` : This folder contains the source code files.
 
-2. `inputfiles` : This folder contains templates of input files for the simulations.
+2. `inputfile_templates` : This folder contains templates of input files for the simulations.
 
 3. `tutorials` : This folder contains example applications of GIBS.
 
 
-### Code compilation and use
+### Code compilation
 
 To compile the code, first create a build directory in the *gibs* directory, e.g.,
 
@@ -57,6 +57,7 @@ following examples show how to compile the code on a Mac and on a Windows OS.
 > cmake -DCMAKE_BUILD_TYPE=RELEASE ../
 > make
 ```
+
 2. Using a 32-bit MINGW compiler for Windows. Run *cmake* and *make* in the Windows command prompt window.
 
 
@@ -70,11 +71,26 @@ following examples show how to compile the code on a Mac and on a Windows OS.
 Running *cmake* will generate the Makefile. Running *make* will create the
 executable file, *gibs.exe*.
 
-To execute a run in the command window and to save the screen output to a file (e.g., run.out), type and press enter
+
+```
+## Running GIBS
+
+1. Create a simulation *run folder*.
+2. Create 2 folders in the *run folder* , **inputfiles** and **outputfiles**.
+3. Copy the template files provided in the [Inputfile Templates](/Inputfile_Templates) to the *inputfiles* folder
+4. Set the parameter values for the simulation (See [instructions for setting up input 
+parameters](/tnputfile_templates)).
+5. Copy the executable file to the the *run folder*.
+
+To execute a run on a mac / linux and to save the screen output to a file (e.g. run.out), do
+```
+$ ./gibs.exe > run.out &
+```
+
+To execute a run on the Windows Command Prompt window, do
 
 ```
 > start /B gibs.exe > run.out
-
 ```
 
 ## Citing GIBS
