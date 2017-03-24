@@ -40,12 +40,12 @@ of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
 ### Code compilation and use
 
-To compile the code, first create a build directory in the 'gibs' directory, e.g.,
+To compile the code, first create a build directory in the *gibs* directory, e.g.,
 
 ```
 > mkdir build
 ```
-In the build directory, generate a Makefile using `CMake`. Examples of `CMakeLists.txt` files
+In the *build* directory, generate a Makefile using *CMake*. Examples of *CMakeLists.txt* files
 are provided. These can be modified to suit the user's choice of C++ compiler and platform. The 
 following examples show how to compile the code on a Mac and on a Windows OS.
 
@@ -57,7 +57,7 @@ following examples show how to compile the code on a Mac and on a Windows OS.
 > cmake -DCMAKE_BUILD_TYPE=RELEASE ../
 > make
 ```
-2. Using a 32-bit MINGW compiler for Windows. Run 'CMake' and 'make' in the Windows command prompt window.
+2. Using a 32-bit MINGW compiler for Windows. Run *CMake* and *make* in the Windows command prompt window.
 
 
 ```
