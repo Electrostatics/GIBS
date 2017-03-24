@@ -16,9 +16,6 @@ The GIBS program was written by Dr. Dennis G. Thomas in collaboration with Dr. N
 Northwest National Laboratory. The program was developed as part of projects funded by the National Institutes 
 of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
 
-![alt text](images/graphictoc.jpg =100x100 "GIBS simulation of the distribution of sodium (yellow) and chloride
-(magenta) ions around a 25-base pair poly(dA):poly(dT) DNA duplex in 100mM NaCl.")
-
 ## Features
 
 1. Automated excess chemical potential calculations for bulk electrolyte solutions.
