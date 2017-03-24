@@ -57,7 +57,7 @@ following examples show how to compile the code on a Mac and on a Windows OS.
 > cmake -DCMAKE_BUILD_TYPE=RELEASE ../
 > make
 ```
-2. Using a 32-bit MINGW compiler for Windows. Run *CMake* and *make* in the Windows command prompt window.
+2. Using a 32-bit MINGW compiler for Windows. Run *cmake* and *make* in the Windows command prompt window.
 
 
 ```
@@ -67,9 +67,15 @@ following examples show how to compile the code on a Mac and on a Windows OS.
 > mingw32-make
 ```
 
-Running cmake will generate the Makefile. Running make will create the
-executable file, gibs.exe.
+Running *cmake* will generate the Makefile. Running *make* will create the
+executable file, *gibs.exe*.
 
+To execute a run in the command window and to save the screen output to a file (e.g., run.out), type and press enter
+
+```
+> start /B gibs.exe > run.out
+
+```
 
 ## Citing GIBS
 
