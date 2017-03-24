@@ -1,4 +1,4 @@
-[logo]: images/graphictoc.jpg | width=100 "GIBS simulation of the distribution of sodium (yellow) and chloride
+[logo]: images/graphictoc.jpg =100x100 "GIBS simulation of the distribution of sodium (yellow) and chloride
 (magenta) ions around a 25-base pair poly(dA):poly(dT) DNA duplex in 100mM NaCl."
 
 # GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for simulating ion-biomolecule interactions with molecular solvent models
