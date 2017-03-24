@@ -72,7 +72,6 @@ Running *cmake* will generate the Makefile. Running *make* will create the
 executable file, *gibs.exe*.
 
 
-```
 ## Running GIBS
 
 1. Create a simulation *run folder*.
