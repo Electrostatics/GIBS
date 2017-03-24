@@ -1,3 +1,6 @@
+[logo]: /images/graphictoc.jpg "GIBS simulation of the distribution of sodium (yellow) and chloride (magenta) ions 
+around a 25-base pair poly(dA):poly(dT) DNA duplex in 100mM NaCl." 
+
 # GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for simulating ion-biomolecule interactions with molecular solvent models
 
 The ionic environment of biomolecules strongly influences their structure, conformational stability, and 
@@ -15,6 +18,8 @@ freely for the community to use as an educational and as a research tool.
 The GIBS program was written by Dr. Dennis G. Thomas in collaboration with Dr. Nathan A. Baker, at the Pacific 
 Northwest National Laboratory. The program was developed as part of projects funded by the National Institutes 
 of Health through R01 Grant Nos. GM076121-04S1 and GM099450.
+
+![alt text][logo]
 
 ## Features
 
