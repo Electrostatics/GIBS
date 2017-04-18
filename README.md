@@ -15,7 +15,7 @@ The GIBS program was written by Dr. Dennis G. Thomas in collaboration with Dr. N
 
 ## Current Version
 
-The current version is (/release_version_1) 
+The current version is [version 1](/release_version_1) 
 
 ## Citing GIBS
 
