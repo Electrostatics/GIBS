@@ -1,4 +1,6 @@
 ![GIBS](/images/gibs_icon.png)
+<img src="/images/gibs_icon.png" alt="GIBS" style="width: 200px;"/>
+
 # GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for computing ion distributions around biomolecules with hard sphere solvent models
 
 GIBS is a Grand canonical Monte Carlo (GCMC) simulation program for computing the 
