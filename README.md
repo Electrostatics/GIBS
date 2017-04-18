@@ -1,5 +1,5 @@
 ![GIBS](/images/gibs_icon.png)
-<img src="/images/gibs_icon.png" alt="GIBS" style="width: 200px;"/>
+<img src="/images/gibs_icon.png" alt="GIBS" style="width: 100px;"/>
 
 # GIBS: Grand Canonical Monte Carlo (GCMC) simulation program for computing ion distributions around biomolecules with hard sphere solvent models
 
