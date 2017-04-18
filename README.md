@@ -39,7 +39,6 @@ A publication has been planned.
 
 ```
 ## Disclaimer
-Disclaimer
 This material was prepared as an account of work sponsored by an agency of the 
 United States Government.  Neither the United States Government nor the United 
 States Department of Energy, nor Battelle, nor any of their employees, nor any 
@@ -54,6 +53,7 @@ imply its endorsement, recommendation, or favoring by the United States
 Government or any agency thereof, or Battelle Memorial Institute. The views and 
 opinions of authors expressed herein do not necessarily state or reflect those of 
 the United States Government or any agency thereof.
+
 PACIFIC NORTHWEST NATIONAL LABORATORY
 operated by
 BATTELLE
