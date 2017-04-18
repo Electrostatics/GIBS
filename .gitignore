@@ -1,2 +1,3 @@
 CMakeLists.txt
 CMakeLists_cygwin.txt and CMakeLists_mac.txt
+CMakeLists_linux.txt
