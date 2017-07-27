@@ -61,7 +61,7 @@ void CParticleState::updateCavityList(struct_particle ptcl,CParticleType_t &part
 
 	/*If particles are inserted (state_change: insertion), then some sites for each
 	 * particle type will be deleted from its  cavity list.
-	 * If particles are (state_change: deletion), then some sites for each particle
+	 * If particles are deleted (state_change: deletion), then some sites for each particle
 	 * type may be added.
 	 */
 

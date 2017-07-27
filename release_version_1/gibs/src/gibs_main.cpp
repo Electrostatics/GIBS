@@ -70,6 +70,8 @@ int main(){
 	time (&start);
 	timeinfo = localtime(&start);
 
+	std::ios::sync_with_stdio(false);
+
 	std::cout << "Using GIBS software, version 1.0" << std::endl;
 	std::cout << "Simulation started on (local time): " << asctime(timeinfo) << std::endl;
 
